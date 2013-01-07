@@ -1,0 +1,8 @@
+scene= PackagingFacility.radmtl PackagingFacility.rad /tmp/lt13347.rad
+EXPOSURE= .5
+UP= Z
+view= XYZ
+OCTREE= /tmp/ov13347.oct
+oconv= -f
+AMBF= /tmp/af13347.amb
+render= 

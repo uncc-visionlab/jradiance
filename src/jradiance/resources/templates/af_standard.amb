@@ -1,0 +1,7 @@
+#?RADIANCE
+rvu -av 1.00000 1.00000 1.00000 -aw 0 -ab 0 -aa 0.300000 -ad 256 -as 0 -ar 16 oconv_java_mesh.oct
+SOFTWARE= RADIANCE 4.1 official LBNL release 11/04/2011
+CAPDATE= 2012:12:13 00:19:26
+FORMAT=Radiance_ambval
+
+-
