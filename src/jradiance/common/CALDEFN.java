@@ -315,8 +315,8 @@ public class CALDEFN {
             if (cpp.charAt(cppidx) == 0) {
                 return (null);	/* return null if past global level */
             }
-            while (cpp.charAt(++cppidx) != 0 && cpp.charAt(cppidx) != CALCOMP.CNTXMARK)
-	    ;
+            while (cpp.charAt(++cppidx) != 0 && cpp.charAt(cppidx) != CALCOMP.CNTXMARK)	 
+            {}
         }
         nambuf += cpp.substring(cppidx);
 //    while (cpp.charAt(cppidx)!=0) {		/* copy context to static buffer */
